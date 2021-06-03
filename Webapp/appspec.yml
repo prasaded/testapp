@@ -9,7 +9,7 @@ hooks:
     - location: scripts/after_install.sh
       timeout: 180
       runas: root
-  ApplicationStop:
-    - location: scripts/app_stop.sh
-      timeout: 180
-      runas: root
+  #ApplicationStop:
+  #  - location: scripts/app_stop.sh
+  #    timeout: 180
+  #    runas: root
